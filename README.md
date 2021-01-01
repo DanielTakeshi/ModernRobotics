@@ -24,3 +24,19 @@ Some libraries built on ours:
 * [tf_rbdl](https://github.com/junhyeokahn/tf_rbdl#tf_rbdl), which refactors the Python version using the package `tensorflow`.
 
 Any contribution is welcomed but the maintenance team for this library here doesn't vouch for the reliability of those projects.
+
+# Daniel's Installation
+
+```
+conda create -n py3-modern-robotics python=3.7
+conda activate py3-modern-robotics
+pip install numpy
+pip install modern_robotics
+```
+
+Then get iPython with a fix for jedi.
+
+```
+conda install ipython
+pip install jedi==0.17.2
+```
