@@ -19,8 +19,11 @@ The primary purpose of the provided software is to be easy to read and education
 Some unofficial versions in other languages are being developed:
 * [C++ version](https://github.com/Le0nX/ModernRoboticsCpp)
 * [Julia version](https://github.com/ferrolho/ModernRoboticsBook.jl)
+* [Nim version](https://github.com/Nimbotics/ModernRoboticsNim)
 
 Some libraries built on ours:
+* [KinematicsFromDescriptionTool](https://github.com/Interbotix/kinematics_from_description), which calculates the kinematics input parameters from a robot's URDF or robot_description parameter using ROS and Python3.
+* [mr_urdf_loader](https://github.com/tjdalsckd/mr_urdf_loader), which generates `M`, `Slist`, `Blist`, `Mlist` and `Glist` parameters for kinematics and dynamics. It also provides UR5 simulation using `PyBullet`.
 * [tf_rbdl](https://github.com/junhyeokahn/tf_rbdl#tf_rbdl), which refactors the Python version using the package `tensorflow`.
 
 Any contribution is welcomed but the maintenance team for this library here doesn't vouch for the reliability of those projects.
